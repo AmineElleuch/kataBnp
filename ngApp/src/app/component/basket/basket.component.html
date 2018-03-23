@@ -1,0 +1,6 @@
+<span> The basket Value is : {{basket.price}} </span>
+<ul>
+    <li *ngFor="let product of basket.products">
+      <span> the product {{product.name}} with value {{product.price}} is in you basket</span>
+    </li>
+</ul>
